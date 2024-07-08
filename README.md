@@ -1,4 +1,4 @@
-# A deep learning harmonization of multi-vendor MRI for robust intervertebral disc segmentation
+## A deep learning harmonization of multi-vendor MRI for robust intervertebral disc segmentation
 
 ![network](https://github.com/Chae-Woo/Harmonisation/assets/45866328/fe62955e-6ee3-4f62-8eb2-824b76f74a86)
 
