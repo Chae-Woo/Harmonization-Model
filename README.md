@@ -8,3 +8,6 @@ training the CycleGAN. The S_y was pre-trained on the target images in advance, 
 pre-trained S_y provides the ground truths (GTs; green and orange boxes) to calculate the dice loss functions (dash-dotted lines). The RF (radiomic feature) loss is calculated from the
 ROI of the harmonized image by comparing it with the pre-obtained RF values from the target images (red line). (b) The G_xy trained in (a) can harmonize
 diverse MR images to predict the segmented results via the S_y trained on the target images.
+
+![RF_loss copy](https://github.com/Chae-Woo/Harmonization-Model/assets/45866328/84627afb-fb9b-43fa-b42b-dd1b89d10a95)
+Procedure for RF (Radiomic Feature) loss function. Before training, (1) the features representing the target images are selected among all features using statistical methods. (2) The mean values of the selected RFs are pre-obtained from the ROIs in the target (pre-obtained 5 RF values). During training (3), the RF values of the ROI in harmonized image is compared with the pre-obtained RF values from (2).
